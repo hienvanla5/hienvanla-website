@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>bai 1</title>
+    </head>
+    <body>
+        <center>
+            <h2><font size="10" color="blue">Thuc hanh the Form</font></h2>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <fieldset style="width: 650px; margin: auto;">
+                    <legend><b>Thong tin ca nhan</b></legend>
+                    <table border="1" cellpadding="8" cellspacing="0" width="600">
+                        <tr>
+                            <td width="40%"><b>Ho ten</b></td>
+                            <td><input type="text" name="hoten" size="60" placeholder="La Van Hien"></td>
+                        </tr>
+                        <tr>
+                            <td>Tai khoan</td>
+                            <td><input type="text" name="taikhoan" placeholder="taikhoandangnhap" size="30"></td>
+                        </tr>
+                        <tr>
+                            <td>Gioi thieu ban than</td>
+                            <td><textarea name="gioithieu" rows="4" cols="30" id=""></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Mat khau</td>
+                            <td><input type="password" name="matkhau" size="30"></td>
+                        </tr>
+                        <tr>
+                            <td>Anh dai dien</td>
+                            <td><input type="file" name="anh"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <fieldset style="width: 650px; margin: auto;">
+                    <legend><b>Lua chon</b></legend>
+                    <table style="border: 1px solid black;" cellpadding="8" cellspacing="0" width="600">
+                        <tr>
+                            <td width="40%">Gioi tinh</td>
+                            <td><input type="radio">Nam</td>
+                            <td><input type="radio">Nam</td>
+                            <td><input type="radio">Khac</td>
+                        </tr>
+                        <tr>
+                            <td>So thich</td>
+                            <td><input type="checkbox">The thao</td>
+                            <td><input type="checkbox">Am nhac</td>
+                            <td><input type="checkbox">The thao</td>
+                        </tr>
+                        <tr>
+                            <td>Quoc gia</td>
+                            <td>
+                                <select name="quocgia" id="">
+                                    <option value="vn" selected>Viet Nam</option>
+                                    <option value="cam">Cambodia</option>
+                                    <option value="us">United States</option>
+                                    <option value="uk">United Kingdom</option>
+                                    <option value="jp">Japan</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Ky nang</td>
+                            <td>
+                                <select name="kynang" id="" multiple>
+                                    <option value="html">HTML</option>
+                                    <option value="css">CSS</option>
+                                    <option value="javascript">JavaScript</option>
+                                    <option value="php">PHP</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <fieldset style="width: 650px; margin: auto;">
+                    <legend><b>Hanh dong</b></legend>
+                    <table style="border: 1px solid black;" cellpadding="8" cellspacing="0" width="600">
+                        <tr>
+                            <td>
+                                <input type="submit" value="Gui">
+                                <input type="reset" value="Nhap lai">
+                                <input type="button" onclick="alert('Thiet ke web KTPM K22B')" value="Button">
+                                <!-- <button onclick="alert('Thiet ke web KTPM K22B')">Button</button> -->
+                            </td>
+                        </tr>
+
+                    </table>
+                </fieldset>
+            </form>
+        </center>
+    </body>
+</html>
